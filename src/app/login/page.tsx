@@ -19,7 +19,7 @@ const LoginPage = () => {
       className='p-2 border border-gray-300 rounded-lg mb-4 focus:outline-none focus:border-gray-600' 
       id='username'
       type='text'
-      value={user.email}
+      value={user.email} 
       onChange={(e)=>setUser({...user,email:e.target.value})}
       placeholder='email'></input>
       <label htmlFor='password'>password</label>
